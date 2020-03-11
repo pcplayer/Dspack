@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013/04/07 17:37:29.000.622,=D:\ControlXE2\DsPack_XE3\Demos\D6-D7\VMR\VMRPlayWin\Unit1.pas</Transaction>
+    <Transaction>2013/04/07 17:37:44.000.807,=D:\ControlXE2\DsPack_XE3\Demos\D6-D7\VMR\VMRPlayWin\Unit1.pas</Transaction>
+    <Transaction>2013/04/07 17:38:06.000.014,D:\ControlXE2\DsPack_XE3\Demos\D6-D7\VMR\VMRPlayWin\Unit1.dfm=D:\ControlXE2\DsPack_XE3\Demos\D6-D7\VMR\VMRPlayWin\UFmFullScren.dfm</Transaction>
+    <Transaction>2013/04/07 17:38:06.000.014,D:\ControlXE2\DsPack_XE3\Demos\D6-D7\VMR\VMRPlayWin\Unit1.pas=D:\ControlXE2\DsPack_XE3\Demos\D6-D7\VMR\VMRPlayWin\UFmFullScren.pas</Transaction>
+    <Transaction>2013/04/07 17:48:42.000.668,D:\ControlXE2\DsPack_XE3\Demos\D6-D7\VMR\VMRPlayWin\UFmFullScren.pas=D:\ControlXE2\DsPack_XE3\Demos\D6-D7\VMR\VMRPlayWin\UFmFullScren2.pas</Transaction>
+    <Transaction>2013/04/07 17:48:42.000.668,D:\ControlXE2\DsPack_XE3\Demos\D6-D7\VMR\VMRPlayWin\UFmFullScren.dfm=D:\ControlXE2\DsPack_XE3\Demos\D6-D7\VMR\VMRPlayWin\UFmFullScren2.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

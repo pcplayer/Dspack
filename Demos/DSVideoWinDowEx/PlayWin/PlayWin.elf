@@ -1,0 +1,572 @@
+EurekaLog 5.1.11
+
+Application:
+------------------------------------------------------
+  1.1 Start Date      : Thu, 3 Sep 2009 18:25:23 +0800
+  1.2 Name/Description: PlayWin.exe
+  1.3 Version Number  : 
+  1.4 Parameters      : 
+  1.5 Compilation Date: Thu, 3 Sep 2009 18:25:22 +0800
+
+Exception:
+------------------------------------------------------------------------------------------------------
+  2.1 Date   : Thu, 3 Sep 2009 18:25:53 +0800
+  2.2 Address: 00406815
+  2.3 Module : PlayWin.exe
+  2.4 Type   : EAccessViolation
+  2.5 Message: Access violation at address 00406815 in module 'PlayWin.exe'. Read of address 00000774.
+
+Active Controls:
+---------------------------------
+  3.1 Form Class   : TApplication
+  3.2 Form Text    : Playwin
+  3.3 Control Class: TApplication
+  3.4 Control Text : Playwin
+
+Computer:
+---------------------------------------------------------------------
+  4.1 Name          : PCPLAYER-WORK
+  4.2 User          : pcplayer
+  4.3 Total Memory  : 2038 Mb
+  4.4 Free Memory   : 282 Mb
+  4.5 Total Disk    : 127 Gb
+  4.6 Free Disk     : 100.89 Gb
+  4.7 System Up Time: 1 day, 8 hours, 58 minutes, 0 second
+  4.8 Processor     : Intel(R) Pentium(R) Dual  CPU  E2220  @ 2.40GHz
+  4.9 Display Mode  : 1440 x 900, 32 bit
+
+Operating System:
+------------------------------------
+  5.1 Type    : Microsoft Windows XP
+  5.2 Build # : 2600
+  5.3 Update  : Service Pack 3
+  5.4 Language: Chinese
+
+Network:
+---------------------------------------------------
+  6.1 IP Address: 192.168.000.048 - 192.168.056.001
+  6.2 Submask   : 255.255.255.000 - 255.255.255.000
+  6.3 Gateway   : 192.168.000.002 - 000.000.000.000
+  6.4 DNS 1     : 202.096.134.133 - 000.000.000.000
+  6.5 DNS 2     : 192.168.000.002 - 000.000.000.000
+  6.6 DHCP      : OFF             - OFF            
+
+Call Stack Information:
+---------------------------------------------------------------------
+|Address |Module     |Unit       |Class       |Procedure/Method|Line|
+---------------------------------------------------------------------
+| Running Thread: ID=3200; Priority=0; Class=; [Main]               |
+|-------------------------------------------------------------------|
+|004A0DE8|PlayWin.exe|DSPack.pas |TFilterGraph|ClearOwnFilters |2093|
+|004A0DA4|PlayWin.exe|DSPack.pas |TFilterGraph|ClearOwnFilters |2089|
+|0049FA38|PlayWin.exe|DSPack.pas |TFilterGraph|SetActive       |1803|
+|0049F83C|PlayWin.exe|DSPack.pas |TFilterGraph|SetActive       |1747|
+|0049F7EB|PlayWin.exe|DSPack.pas |TFilterGraph|Destroy         |1725|
+|004A8664|PlayWin.exe|PlayWin.dpr|            |                |16  |
+---------------------------------------------------------------------
+
+Modules Information:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|Handle  |Name        |Description                                     |Version         |Size   |Modified           |Path                                                                                                |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|00400000|PlayWin.exe |                                                |                |858112 |2009-09-03 18:25:24|E:\ControlToInstall\DsPack\Demos\DSVideoWinDowEx\PlayWin                                            |
+|01420000|Normaliz.dll|Unicode Normalization DLL                       |6.0.5441.0      |23552  |2006-06-29 08:05:44|C:\WINDOWS\system32                                                                                 |
+|01C30000|xpsp2res.dll|Service Pack 2 Messages                         |5.1.2600.5512   |5535744|2008-04-14 02:35:52|C:\WINDOWS\system32                                                                                 |
+|021A0000|PDFShell.CHS|PDF Shell Extension                             |8.0.0.0         |311296 |2006-11-17 00:37:46|C:\Program Files\Common Files\Adobe\Acrobat\ActiveX                                                 |
+|02870000|DRMClien.DLL|DRM Client DLL                                  |9.0.0.4503      |299520 |2008-04-14 10:14:26|C:\WINDOWS\system32                                                                                 |
+|1F840000|odbcint.dll |Microsoft Data Access - ODBC Resources          |3.525.1117.0    |94208  |2007-03-28 20:51:34|C:\WINDOWS\system32                                                                                 |
+|3E410000|WININET.dll |Internet Extensions for Win32                   |7.0.6000.16876  |827392 |2009-06-29 23:55:14|C:\WINDOWS\system32                                                                                 |
+|3EAB0000|iertutil.dll|Run time utility for Internet Explorer          |7.0.6000.16876  |268288 |2009-06-29 23:55:10|C:\WINDOWS\system32                                                                                 |
+|43CE0000|urlmon.dll  |OLE32 Extensions for Win32                      |7.0.6000.16876  |1159680|2009-06-29 23:55:14|C:\WINDOWS\system32                                                                                 |
+|45E90000|qdvd.dll    |DirectShow DVD PlayBack Runtime.                |6.5.2600.5512   |385536 |2008-04-14 10:13:48|C:\WINDOWS\system32                                                                                 |
+|57C90000|mpg2splt.ax |                                                |6.5.2600.5512   |148992 |2008-04-14 10:14:18|C:\WINDOWS\system32                                                                                 |
+|586B0000|wmpasf.dll  |Windows Media Filter Shim                       |9.0.0.4503      |114688 |2008-04-14 10:13:52|C:\WINDOWS\system32                                                                                 |
+|5A000000|klg.dat     |Spyware Doctor Component                        |6.1.0.1         |100864 |2009-02-13 14:11:44|C:\Program Files\Spyware Doctor                                                                     |
+|5ADC0000|uxtheme.dll |Microsoft UxTheme Library                       |6.0.2900.5512   |216064 |2008-04-14 10:13:50|C:\WINDOWS\system32                                                                                 |
+|5D170000|comctl32.dll|Common Controls Library                         |5.82.2900.5512  |617472 |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|5FDD0000|NETAPI32.dll|Net Win32 API DLL                               |5.1.2600.5694   |337408 |2008-10-16 00:35:20|C:\WINDOWS\system32                                                                                 |
+|62C20000|LPK.DLL     |Language Pack                                   |5.1.2600.5512   |22016  |2008-04-14 10:13:44|C:\WINDOWS\system32                                                                                 |
+|636E0000|smum32.dll  |                                                |6.1.0.2         |148944 |2008-11-13 14:19:40|C:\Program Files\Spyware Doctor                                                                     |
+|6C2C0000|dxmasf.dll  |Windows Media Source Filter                     |6.4.9.1133      |494646 |2008-04-14 10:13:42|C:\WINDOWS\system32                                                                                 |
+|6E610000|ASOEHOOK.DLL|AntiSpam OE Hook                                |4.5.0.44        |419696 |2009-03-12 16:42:30|C:\PROGRAM FILES\NORTON INTERNET SECURITY\ENGINE\16.5.0.135                                         |
+|71A10000|WS2HELP.dll |Windows Socket 2.0 Helper for Windows NT        |5.1.2600.5512   |19968  |2008-04-14 10:13:52|C:\WINDOWS\system32                                                                                 |
+|71A20000|WS2_32.dll  |Windows Socket 2.0 32-Bit DLL                   |5.1.2600.5512   |82432  |2008-04-14 10:13:52|C:\WINDOWS\system32                                                                                 |
+|71A40000|wsock32.dll |Windows Socket 32-Bit DLL                       |5.1.2600.5512   |28672  |2008-04-14 10:13:52|C:\WINDOWS\system32                                                                                 |
+|71A90000|MPR.dll     |Multiple Provider Router DLL                    |5.1.2600.5512   |59904  |2008-04-14 10:13:44|C:\WINDOWS\system32                                                                                 |
+|71B70000|SAMLIB.dll  |SAM Library DLL                                 |5.1.2600.5512   |64000  |2008-04-14 10:13:48|C:\WINDOWS\System32                                                                                 |
+|71B90000|ntlanman.dll|Microsoft(R) Lan Manager                        |5.1.2600.5512   |44032  |2008-04-14 10:13:46|C:\WINDOWS\System32                                                                                 |
+|71C00000|NETRAP.dll  |Net Remote Admin Protocol DLL                   |5.1.2600.5512   |11776  |2008-04-14 10:13:46|C:\WINDOWS\System32                                                                                 |
+|71C10000|NETUI1.dll  |NT LM UI Common Code - Networking classes       |5.1.2600.5512   |245760 |2008-04-14 10:13:46|C:\WINDOWS\System32                                                                                 |
+|71C50000|NETUI0.dll  |NT LM UI Common Code - GUI Classes              |5.1.2600.5512   |73216  |2008-04-14 10:13:46|C:\WINDOWS\System32                                                                                 |
+|72C40000|l3codecx.ax |MPEG Layer-3 Audio Decoder                      |1.5.0.50        |83456  |2004-08-17 20:00:00|C:\WINDOWS\system32                                                                                 |
+|72C80000|msacm32.drv |Microsoft Sound Mapper                          |5.1.2600.0      |20480  |2004-08-17 20:00:00|C:\WINDOWS\system32                                                                                 |
+|72C90000|wdmaud.drv  |WDM Audio driver mapper                         |5.1.2600.5512   |23552  |2008-04-14 10:14:20|C:\WINDOWS\system32                                                                                 |
+|73540000|ODBC32.dll  |Microsoft Data Access - ODBC Driver Manager     |3.525.1132.0    |249856 |2008-04-14 10:13:46|C:\WINDOWS\system32                                                                                 |
+|73640000|msctfime.ime|Microsoft Text Frame Work Service IME           |5.1.2600.5768   |177152 |2009-02-27 12:56:14|C:\WINDOWS\system32                                                                                 |
+|736D0000|DDRAW.dll   |Microsoft DirectDraw                            |5.3.2600.5512   |279040 |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|738B0000|D3DIM700.DLL|Microsoft Direct3D                              |5.3.2600.5512   |824320 |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|73B30000|DCIMAN32.dll|DCI Manager                                     |5.1.2600.5512   |8704   |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|73CE0000|shgina.dll  |Windows Shell User Logon                        |6.0.2900.5512   |68096  |2008-04-14 10:13:48|C:\WINDOWS\system32                                                                                 |
+|73E40000|KsUser.dll  |User CSA Library                                |5.3.2600.5512   |4096   |2008-04-14 10:13:44|C:\WINDOWS\system32                                                                                 |
+|73E70000|DSOUND.DLL  |DirectSound                                     |5.3.2600.5512   |367616 |2008-04-14 10:13:42|C:\WINDOWS\system32                                                                                 |
+|73FA0000|USP10.dll   |Uniscribe Unicode script processor              |1.420.2600.5512 |406016 |2008-04-14 10:13:50|C:\WINDOWS\system32                                                                                 |
+|74680000|MSCTF.dll   |MSCTF Server DLL                                |5.1.2600.5512   |296960 |2008-04-14 10:13:44|C:\WINDOWS\system32                                                                                 |
+|75430000|CRYPTUI.dll |Microsoft Trust UI Provider                     |5.131.2600.5512 |449024 |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|758D0000|MSGINA.dll  |Windows NT Logon GINA DLL                       |5.1.2600.5512   |970752 |2008-04-14 10:13:44|C:\WINDOWS\system32                                                                                 |
+|759D0000|USERENV.dll |Userenv                                         |5.1.2600.5512   |708608 |2008-04-14 10:13:50|C:\WINDOWS\system32                                                                                 |
+|75AF0000|devenum.dll |Device enumeration.                             |6.5.2600.5512   |59904  |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|75ED0000|drprov.dll  |Microsoft Terminal Server Network Provider      |5.1.2600.5512   |14336  |2008-04-14 10:13:42|C:\WINDOWS\System32                                                                                 |
+|75EE0000|davclnt.dll |Web DAV Client DLL                              |5.1.2600.5512   |25088  |2008-04-14 10:13:40|C:\WINDOWS\System32                                                                                 |
+|75EF0000|browseui.dll|Shell Browser UI Library                        |6.0.2900.5512   |1024512|2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|76060000|SETUPAPI.dll|Windows Setup API                               |5.1.2600.5512   |1389568|2008-04-13 19:13:50|C:\WINDOWS\system32                                                                                 |
+|762D0000|WINSTA.dll  |Winstation Library                              |5.1.2600.5512   |53760  |2008-04-14 10:13:50|C:\WINDOWS\system32                                                                                 |
+|76300000|IMM32.DLL   |Windows XP IMM32 API Client DLL                 |5.1.2600.5512   |110080 |2008-04-14 10:13:44|C:\WINDOWS\system32                                                                                 |
+|76320000|comdlg32.dll|Common Dialogs DLL                              |6.0.2900.5512   |269824 |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|76570000|CSCDLL.dll  |Offline Network Agent                           |5.1.2600.5512   |99840  |2008-04-14 10:13:40|C:\WINDOWS\System32                                                                                 |
+|76590000|cscui.dll   |Client Side Caching UI                          |5.1.2600.5512   |304128 |2008-04-14 10:13:40|C:\WINDOWS\System32                                                                                 |
+|765E0000|CRYPT32.dll |Crypto API32                                    |5.131.2600.5512 |591872 |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|76960000|ntshrui.dll |Shell extensions for sharing                    |5.1.2600.5512   |137216 |2008-04-14 10:13:46|C:\WINDOWS\system32                                                                                 |
+|76990000|ole32.dll   |Microsoft OLE for Windows                       |5.1.2600.5512   |1287168|2008-04-14 10:13:46|C:\WINDOWS\system32                                                                                 |
+|76AF0000|ATL.DLL     |ATL Module for Windows XP (Unicode)             |3.5.2284.2      |58880  |2009-07-18 03:02:18|C:\WINDOWS\system32                                                                                 |
+|76B10000|WINMM.dll   |MCI API DLL                                     |5.1.2600.5512   |163840 |2008-04-14 10:13:50|C:\WINDOWS\system32                                                                                 |
+|76BC0000|PSAPI.DLL   |Process Status Helper                           |5.1.2600.5512   |23040  |2008-04-14 10:13:48|C:\WINDOWS\system32                                                                                 |
+|76C00000|WINTRUST.dll|Microsoft Trust Verification APIs               |5.131.2600.5512 |175616 |2008-04-14 10:13:52|C:\WINDOWS\system32                                                                                 |
+|76C60000|IMAGEHLP.dll|Windows NT Image Helper                         |5.1.2600.5512   |144384 |2008-04-14 10:13:42|C:\WINDOWS\system32                                                                                 |
+|76D70000|appHelp.dll |Application Compatibility Client Library        |5.1.2600.5512   |125952 |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|76DB0000|MSASN1.dll  |ASN.1 Runtime APIs                              |5.1.2600.5512   |57344  |2008-04-14 10:13:44|C:\WINDOWS\system32                                                                                 |
+|76F30000|WLDAP32.dll |Win32 LDAP API DLL                              |5.1.2600.5512   |170496 |2008-04-14 10:13:52|C:\WINDOWS\system32                                                                                 |
+|76FA0000|CLBCATQ.DLL |                                                |2001.12.4414.700|498688 |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|77020000|COMRes.dll  |                                                |2001.12.4414.700|615936 |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|770F0000|oleaut32.dll|                                                |5.1.2600.5512   |551936 |2008-04-14 10:13:46|C:\WINDOWS\system32                                                                                 |
+|77180000|comctl32.dll|User Experience Controls Library                |6.0.2900.5512   |1054208|2008-04-14 10:11:56|C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83|
+|77BA0000|midimap.dll |Microsoft MIDI Mapper                           |5.1.2600.5512   |18944  |2008-04-14 10:13:44|C:\WINDOWS\system32                                                                                 |
+|77BB0000|MSACM32.dll |Microsoft ACM Audio Filter                      |5.1.2600.5512   |71168  |2008-04-14 10:13:44|C:\WINDOWS\system32                                                                                 |
+|77BD0000|version.dll |Version Checking and File Installation Libraries|5.1.2600.5512   |18944  |2008-04-14 10:13:50|C:\WINDOWS\system32                                                                                 |
+|77BE0000|msvcrt.dll  |Windows NT CRT DLL                              |7.0.2600.5512   |343040 |2008-04-14 10:13:44|C:\WINDOWS\system32                                                                                 |
+|77D10000|user32.dll  |Windows XP USER API Client DLL                  |5.1.2600.5512   |574976 |2008-04-14 10:13:50|C:\WINDOWS\system32                                                                                 |
+|77DA0000|advapi32.dll|Advanced Windows 32 Base API                    |5.1.2600.5755   |674816 |2009-02-09 18:52:44|C:\WINDOWS\system32                                                                                 |
+|77E50000|RPCRT4.dll  |Remote Procedure Call Runtime                   |5.1.2600.5795   |585216 |2009-04-15 22:52:04|C:\WINDOWS\system32                                                                                 |
+|77EF0000|GDI32.dll   |GDI Client DLL                                  |5.1.2600.5698   |286720 |2008-10-23 20:38:08|C:\WINDOWS\system32                                                                                 |
+|77F40000|SHLWAPI.dll |Shell Light-weight Utility Library              |6.0.2900.5512   |473088 |2008-04-14 10:13:48|C:\WINDOWS\system32                                                                                 |
+|77FC0000|Secur32.dll |Security Support Provider Interface             |5.1.2600.5753   |56832  |2009-02-04 03:57:06|C:\WINDOWS\system32                                                                                 |
+|7C800000|kernel32.dll|Windows NT BASE API Client DLL                  |5.1.2600.5781   |1150464|2009-03-21 22:06:58|C:\WINDOWS\system32                                                                                 |
+|7C920000|ntdll.dll   |NT Layer DLL                                    |5.1.2600.5755   |598016 |2009-02-09 18:52:42|C:\WINDOWS\system32                                                                                 |
+|7CF70000|quartz.dll  |DirectShow Runtime.                             |6.5.2600.5822   |1273344|2009-06-04 03:09:38|C:\WINDOWS\system32                                                                                 |
+|7D590000|shell32.dll |Windows Shell Common Dll                        |6.0.2900.5622   |8318976|2008-06-18 03:00:42|C:\WINDOWS\system32                                                                                 |
+|7E550000|shdocvw.dll |Shell Doc Object and Control Library            |6.0.2900.5512   |1498624|2008-04-14 10:13:48|C:\WINDOWS\system32                                                                                 |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Registers:
+-----------------------------
+EAX: 00000770   EDI: 0012FEC0
+EBX: 00000000   ESI: 00E5F410
+ECX: 7FFDE000   ESP: 0012FE68
+EDX: 00E5B674   EIP: 00406815
+
+Stack:               Memory Dump:
+------------------   ---------------------------------------------------------------------------
+0012FE68: 00E5B674   00406815: FF 50 04 58 8B 08 8F 00 85 C9 75 01 C3 8B 01 51  .P.X......u....Q
+0012FE6C: 0012FEC0   00406825: FF 50 08 C3 8B 08 85 C9 89 10 74 06 8B 01 51 FF  .P........t...Q.
+0012FE70: 00E5B674   00406835: 50 08 C3 85 D2 0F 84 B4 FF FF FF 57 89 C7 6A 00  P..........W..j.
+0012FE74: 00419C72   00406845: 54 51 52 8B 02 FF 10 85 C0 74 07 B0 17 E9 45 C4  TQR......t....E.
+0012FE78: 0012FE9C   00406855: FF FF 8B 07 85 C0 74 06 50 8B 00 FF 50 08 58 89  ......t.P...P.X.
+0012FE7C: 004044C4   00406865: 07 5F C3 85 C0 74 06 50 8B 00 FF 50 04 C3 90 83  ._...t.P...P....
+0012FE80: 0012FE94   00406875: C0 04 50 E8 6B AB FF FF C3 8B C0 83 78 04 00 74  ..P.k.......x..t
+0012FE84: 00E5C9C8   00406885: 07 B0 02 E8 0F C4 FF FF C3 8B C0 E8 47 D4 FF FF  ............G...
+0012FE88: 00000000   00406895: C7 40 04 01 00 00 00 C3 8D 40 00 55 8B EC 53 8B  .@.......@.U..S.
+0012FE8C: 00E5C9C8   004068A5: 5D 08 8B 4D 10 8B 55 0C 8B C3 E8 44 D5 FF FF 84  ]..M..U....D....
+0012FE90: 00E5EE8C   004068B5: C0 74 04 33 C0 EB 05 B8 02 40 00 80 5B 5D C2 0C  .t.3.....@..[]..
+0012FE94: 0012FEC8   004068C5: 00 8B C0 55 8B EC 8B 45 08 83 C0 04 50 E8 09 AB  ...U...E....P...
+0012FE98: 004A0DED   004068D5: FF FF 5D C2 04 00 90 55 8B EC 53 56 8B 5D 08 8D  ..]....U..SV.]..
+0012FE9C: 0012FED0   004068E5: 43 04 50 E8 FB AA FF FF 8B F0 85 F6 75 09 B2 01  C.P.........u...
+0012FEA0: 004044C4   004068F5: 8B C3 8B 08 FF 51 FC 8B C6 5E 5B 5D C2 04 00 85  .....Q...^[]....
+0012FEA4: 0012FEC8   00406905: C0 79 16 8B 0D 20 C0 4A 00 85 C9 74 05 8B 14 24  .y... .J...t...$
+
+
+
+EurekaLog 5.1.11
+
+Application:
+------------------------------------------------------
+  1.1 Start Date      : Thu, 3 Sep 2009 18:58:45 +0800
+  1.2 Name/Description: PlayWin.exe
+  1.3 Version Number  : 
+  1.4 Parameters      : 
+  1.5 Compilation Date: Thu, 3 Sep 2009 18:58:44 +0800
+
+Exception:
+------------------------------------------------------------------------------------------------------
+  2.1 Date   : Thu, 3 Sep 2009 18:58:58 +0800
+  2.2 Address: 00406815
+  2.3 Module : PlayWin.exe
+  2.4 Type   : EAccessViolation
+  2.5 Message: Access violation at address 00406815 in module 'PlayWin.exe'. Read of address 00000774.
+
+Active Controls:
+---------------------------------
+  3.1 Form Class   : TApplication
+  3.2 Form Text    : Playwin
+  3.3 Control Class: TApplication
+  3.4 Control Text : Playwin
+
+Computer:
+---------------------------------------------------------------------
+  4.1 Name          : PCPLAYER-WORK
+  4.2 User          : pcplayer
+  4.3 Total Memory  : 2038 Mb
+  4.4 Free Memory   : 271 Mb
+  4.5 Total Disk    : 127 Gb
+  4.6 Free Disk     : 100.89 Gb
+  4.7 System Up Time: 1 day, 9 hours, 30 minutes, 56 seconds
+  4.8 Processor     : Intel(R) Pentium(R) Dual  CPU  E2220  @ 2.40GHz
+  4.9 Display Mode  : 1440 x 900, 32 bit
+
+Operating System:
+------------------------------------
+  5.1 Type    : Microsoft Windows XP
+  5.2 Build # : 2600
+  5.3 Update  : Service Pack 3
+  5.4 Language: Chinese
+
+Network:
+---------------------------------------------------
+  6.1 IP Address: 192.168.000.048 - 192.168.056.001
+  6.2 Submask   : 255.255.255.000 - 255.255.255.000
+  6.3 Gateway   : 192.168.000.002 - 000.000.000.000
+  6.4 DNS 1     : 202.096.134.133 - 000.000.000.000
+  6.5 DNS 2     : 192.168.000.002 - 000.000.000.000
+  6.6 DHCP      : OFF             - OFF            
+
+Call Stack Information:
+---------------------------------------------------------------------
+|Address |Module     |Unit       |Class       |Procedure/Method|Line|
+---------------------------------------------------------------------
+| Running Thread: ID=4340; Priority=0; Class=; [Main]               |
+|-------------------------------------------------------------------|
+|004A0DE8|PlayWin.exe|DSPack.pas |TFilterGraph|ClearOwnFilters |2093|
+|004A0DA4|PlayWin.exe|DSPack.pas |TFilterGraph|ClearOwnFilters |2089|
+|0049FA38|PlayWin.exe|DSPack.pas |TFilterGraph|SetActive       |1803|
+|0049F83C|PlayWin.exe|DSPack.pas |TFilterGraph|SetActive       |1747|
+|0049F7EB|PlayWin.exe|DSPack.pas |TFilterGraph|Destroy         |1725|
+|004A8664|PlayWin.exe|PlayWin.dpr|            |                |16  |
+---------------------------------------------------------------------
+
+Modules Information:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|Handle  |Name        |Description                                     |Version         |Size   |Modified           |Path                                                                                                |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|00400000|PlayWin.exe |                                                |                |858112 |2009-09-03 18:58:46|E:\ControlToInstall\DsPack\Demos\DSVideoWinDowEx\PlayWin                                            |
+|01420000|Normaliz.dll|Unicode Normalization DLL                       |6.0.5441.0      |23552  |2006-06-29 08:05:44|C:\WINDOWS\system32                                                                                 |
+|018F0000|xpsp2res.dll|Service Pack 2 Messages                         |5.1.2600.5512   |5535744|2008-04-14 02:35:52|C:\WINDOWS\system32                                                                                 |
+|01E50000|PDFShell.CHS|PDF Shell Extension                             |8.0.0.0         |311296 |2006-11-17 00:37:46|C:\Program Files\Common Files\Adobe\Acrobat\ActiveX                                                 |
+|01EB0000|l3codeca.acm|MPEG Layer-3 Audio Codec for MSACM              |1.9.0.305       |290816 |2002-04-03 14:37:40|C:\WINDOWS\system32                                                                                 |
+|026E0000|DRMClien.DLL|DRM Client DLL                                  |9.0.0.4503      |299520 |2008-04-14 10:14:26|C:\WINDOWS\system32                                                                                 |
+|3E410000|WININET.dll |Internet Extensions for Win32                   |7.0.6000.16876  |827392 |2009-06-29 23:55:14|C:\WINDOWS\system32                                                                                 |
+|3EAB0000|iertutil.dll|Run time utility for Internet Explorer          |7.0.6000.16876  |268288 |2009-06-29 23:55:10|C:\WINDOWS\system32                                                                                 |
+|43CE0000|urlmon.dll  |OLE32 Extensions for Win32                      |7.0.6000.16876  |1159680|2009-06-29 23:55:14|C:\WINDOWS\system32                                                                                 |
+|45E90000|qdvd.dll    |DirectShow DVD PlayBack Runtime.                |6.5.2600.5512   |385536 |2008-04-14 10:13:48|C:\WINDOWS\system32                                                                                 |
+|57C90000|mpg2splt.ax |                                                |6.5.2600.5512   |148992 |2008-04-14 10:14:18|C:\WINDOWS\system32                                                                                 |
+|586B0000|wmpasf.dll  |Windows Media Filter Shim                       |9.0.0.4503      |114688 |2008-04-14 10:13:52|C:\WINDOWS\system32                                                                                 |
+|5A000000|klg.dat     |Spyware Doctor Component                        |6.1.0.1         |100864 |2009-02-13 14:11:44|C:\Program Files\Spyware Doctor                                                                     |
+|5ADC0000|uxtheme.dll |Microsoft UxTheme Library                       |6.0.2900.5512   |216064 |2008-04-14 10:13:50|C:\WINDOWS\system32                                                                                 |
+|5CB90000|shmedia.dll |Media File Property Extractor Shell Extension   |6.0.2900.5512   |148480 |2008-04-14 10:13:48|C:\WINDOWS\system32                                                                                 |
+|5D170000|comctl32.dll|Common Controls Library                         |5.82.2900.5512  |617472 |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|5FDD0000|NETAPI32.dll|Net Win32 API DLL                               |5.1.2600.5694   |337408 |2008-10-16 00:35:20|C:\WINDOWS\system32                                                                                 |
+|62C20000|LPK.DLL     |Language Pack                                   |5.1.2600.5512   |22016  |2008-04-14 10:13:44|C:\WINDOWS\system32                                                                                 |
+|636E0000|smum32.dll  |                                                |6.1.0.2         |148944 |2008-11-13 14:19:40|C:\Program Files\Spyware Doctor                                                                     |
+|6C2C0000|dxmasf.dll  |Windows Media Source Filter                     |6.4.9.1133      |494646 |2008-04-14 10:13:42|C:\WINDOWS\system32                                                                                 |
+|6E610000|ASOEHOOK.DLL|AntiSpam OE Hook                                |4.5.0.44        |419696 |2009-03-12 16:42:30|C:\PROGRAM FILES\NORTON INTERNET SECURITY\ENGINE\16.5.0.135                                         |
+|71A10000|WS2HELP.dll |Windows Socket 2.0 Helper for Windows NT        |5.1.2600.5512   |19968  |2008-04-14 10:13:52|C:\WINDOWS\system32                                                                                 |
+|71A20000|WS2_32.dll  |Windows Socket 2.0 32-Bit DLL                   |5.1.2600.5512   |82432  |2008-04-14 10:13:52|C:\WINDOWS\system32                                                                                 |
+|71A40000|wsock32.dll |Windows Socket 32-Bit DLL                       |5.1.2600.5512   |28672  |2008-04-14 10:13:52|C:\WINDOWS\system32                                                                                 |
+|71A90000|MPR.dll     |Multiple Provider Router DLL                    |5.1.2600.5512   |59904  |2008-04-14 10:13:44|C:\WINDOWS\system32                                                                                 |
+|72C40000|l3codecx.ax |MPEG Layer-3 Audio Decoder                      |1.5.0.50        |83456  |2004-08-17 20:00:00|C:\WINDOWS\system32                                                                                 |
+|72C80000|msacm32.drv |Microsoft Sound Mapper                          |5.1.2600.0      |20480  |2004-08-17 20:00:00|C:\WINDOWS\system32                                                                                 |
+|72C90000|wdmaud.drv  |WDM Audio driver mapper                         |5.1.2600.5512   |23552  |2008-04-14 10:14:20|C:\WINDOWS\system32                                                                                 |
+|73640000|msctfime.ime|Microsoft Text Frame Work Service IME           |5.1.2600.5768   |177152 |2009-02-27 12:56:14|C:\WINDOWS\system32                                                                                 |
+|736D0000|DDRAW.dll   |Microsoft DirectDraw                            |5.3.2600.5512   |279040 |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|738B0000|D3DIM700.DLL|Microsoft Direct3D                              |5.3.2600.5512   |824320 |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|73AC0000|AVIFIL32.dll|Microsoft AVI File support library              |5.1.2600.5827   |84992  |2009-06-10 22:13:50|C:\WINDOWS\system32                                                                                 |
+|73B30000|DCIMAN32.dll|DCI Manager                                     |5.1.2600.5512   |8704   |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|73B40000|MSVFW32.dll |Microsoft Video for Windows DLL                 |5.1.2600.5512   |120320 |2008-04-14 10:13:44|C:\WINDOWS\system32                                                                                 |
+|73E40000|KsUser.dll  |User CSA Library                                |5.3.2600.5512   |4096   |2008-04-14 10:13:44|C:\WINDOWS\system32                                                                                 |
+|73E70000|DSOUND.DLL  |DirectSound                                     |5.3.2600.5512   |367616 |2008-04-14 10:13:42|C:\WINDOWS\system32                                                                                 |
+|73FA0000|USP10.dll   |Uniscribe Unicode script processor              |1.420.2600.5512 |406016 |2008-04-14 10:13:50|C:\WINDOWS\system32                                                                                 |
+|74680000|MSCTF.dll   |MSCTF Server DLL                                |5.1.2600.5512   |296960 |2008-04-14 10:13:44|C:\WINDOWS\system32                                                                                 |
+|75430000|CRYPTUI.dll |Microsoft Trust UI Provider                     |5.131.2600.5512 |449024 |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|759D0000|USERENV.dll |Userenv                                         |5.1.2600.5512   |708608 |2008-04-14 10:13:50|C:\WINDOWS\system32                                                                                 |
+|75AF0000|devenum.dll |Device enumeration.                             |6.5.2600.5512   |59904  |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|75EF0000|browseui.dll|Shell Browser UI Library                        |6.0.2900.5512   |1024512|2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|76060000|SETUPAPI.dll|Windows Setup API                               |5.1.2600.5512   |1389568|2008-04-13 19:13:50|C:\WINDOWS\system32                                                                                 |
+|76300000|IMM32.DLL   |Windows XP IMM32 API Client DLL                 |5.1.2600.5512   |110080 |2008-04-14 10:13:44|C:\WINDOWS\system32                                                                                 |
+|76320000|comdlg32.dll|Common Dialogs DLL                              |6.0.2900.5512   |269824 |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|76570000|CSCDLL.dll  |Offline Network Agent                           |5.1.2600.5512   |99840  |2008-04-14 10:13:40|C:\WINDOWS\System32                                                                                 |
+|76590000|cscui.dll   |Client Side Caching UI                          |5.1.2600.5512   |304128 |2008-04-14 10:13:40|C:\WINDOWS\System32                                                                                 |
+|765E0000|CRYPT32.dll |Crypto API32                                    |5.131.2600.5512 |591872 |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|76960000|ntshrui.dll |Shell extensions for sharing                    |5.1.2600.5512   |137216 |2008-04-14 10:13:46|C:\WINDOWS\system32                                                                                 |
+|76990000|ole32.dll   |Microsoft OLE for Windows                       |5.1.2600.5512   |1287168|2008-04-14 10:13:46|C:\WINDOWS\system32                                                                                 |
+|76AF0000|ATL.DLL     |ATL Module for Windows XP (Unicode)             |3.5.2284.2      |58880  |2009-07-18 03:02:18|C:\WINDOWS\system32                                                                                 |
+|76B10000|WINMM.dll   |MCI API DLL                                     |5.1.2600.5512   |163840 |2008-04-14 10:13:50|C:\WINDOWS\system32                                                                                 |
+|76BC0000|PSAPI.DLL   |Process Status Helper                           |5.1.2600.5512   |23040  |2008-04-14 10:13:48|C:\WINDOWS\system32                                                                                 |
+|76C00000|WINTRUST.dll|Microsoft Trust Verification APIs               |5.131.2600.5512 |175616 |2008-04-14 10:13:52|C:\WINDOWS\system32                                                                                 |
+|76C60000|IMAGEHLP.dll|Windows NT Image Helper                         |5.1.2600.5512   |144384 |2008-04-14 10:13:42|C:\WINDOWS\system32                                                                                 |
+|76D70000|appHelp.dll |Application Compatibility Client Library        |5.1.2600.5512   |125952 |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|76DB0000|MSASN1.dll  |ASN.1 Runtime APIs                              |5.1.2600.5512   |57344  |2008-04-14 10:13:44|C:\WINDOWS\system32                                                                                 |
+|76F30000|WLDAP32.dll |Win32 LDAP API DLL                              |5.1.2600.5512   |170496 |2008-04-14 10:13:52|C:\WINDOWS\system32                                                                                 |
+|76FA0000|CLBCATQ.DLL |                                                |2001.12.4414.700|498688 |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|77020000|COMRes.dll  |                                                |2001.12.4414.700|615936 |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|770F0000|oleaut32.dll|                                                |5.1.2600.5512   |551936 |2008-04-14 10:13:46|C:\WINDOWS\system32                                                                                 |
+|77180000|comctl32.dll|User Experience Controls Library                |6.0.2900.5512   |1054208|2008-04-14 10:11:56|C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83|
+|77BA0000|midimap.dll |Microsoft MIDI Mapper                           |5.1.2600.5512   |18944  |2008-04-14 10:13:44|C:\WINDOWS\system32                                                                                 |
+|77BB0000|MSACM32.dll |Microsoft ACM Audio Filter                      |5.1.2600.5512   |71168  |2008-04-14 10:13:44|C:\WINDOWS\system32                                                                                 |
+|77BD0000|version.dll |Version Checking and File Installation Libraries|5.1.2600.5512   |18944  |2008-04-14 10:13:50|C:\WINDOWS\system32                                                                                 |
+|77BE0000|msvcrt.dll  |Windows NT CRT DLL                              |7.0.2600.5512   |343040 |2008-04-14 10:13:44|C:\WINDOWS\system32                                                                                 |
+|77D10000|user32.dll  |Windows XP USER API Client DLL                  |5.1.2600.5512   |574976 |2008-04-14 10:13:50|C:\WINDOWS\system32                                                                                 |
+|77DA0000|advapi32.dll|Advanced Windows 32 Base API                    |5.1.2600.5755   |674816 |2009-02-09 18:52:44|C:\WINDOWS\system32                                                                                 |
+|77E50000|RPCRT4.dll  |Remote Procedure Call Runtime                   |5.1.2600.5795   |585216 |2009-04-15 22:52:04|C:\WINDOWS\system32                                                                                 |
+|77EF0000|GDI32.dll   |GDI Client DLL                                  |5.1.2600.5698   |286720 |2008-10-23 20:38:08|C:\WINDOWS\system32                                                                                 |
+|77F40000|SHLWAPI.dll |Shell Light-weight Utility Library              |6.0.2900.5512   |473088 |2008-04-14 10:13:48|C:\WINDOWS\system32                                                                                 |
+|77FC0000|Secur32.dll |Security Support Provider Interface             |5.1.2600.5753   |56832  |2009-02-04 03:57:06|C:\WINDOWS\system32                                                                                 |
+|7C800000|kernel32.dll|Windows NT BASE API Client DLL                  |5.1.2600.5781   |1150464|2009-03-21 22:06:58|C:\WINDOWS\system32                                                                                 |
+|7C920000|ntdll.dll   |NT Layer DLL                                    |5.1.2600.5755   |598016 |2009-02-09 18:52:42|C:\WINDOWS\system32                                                                                 |
+|7CF70000|quartz.dll  |DirectShow Runtime.                             |6.5.2600.5822   |1273344|2009-06-04 03:09:38|C:\WINDOWS\system32                                                                                 |
+|7D590000|shell32.dll |Windows Shell Common Dll                        |6.0.2900.5622   |8318976|2008-06-18 03:00:42|C:\WINDOWS\system32                                                                                 |
+|7E550000|shdocvw.dll |Shell Doc Object and Control Library            |6.0.2900.5512   |1498624|2008-04-14 10:13:48|C:\WINDOWS\system32                                                                                 |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Registers:
+-----------------------------
+EAX: 00000770   EDI: 0012FEC0
+EBX: 00000000   ESI: 00E5F410
+ECX: 7FFDF000   ESP: 0012FE68
+EDX: 00E5B674   EIP: 00406815
+
+Stack:               Memory Dump:
+------------------   ---------------------------------------------------------------------------
+0012FE68: 00E5B674   00406815: FF 50 04 58 8B 08 8F 00 85 C9 75 01 C3 8B 01 51  .P.X......u....Q
+0012FE6C: 0012FEC0   00406825: FF 50 08 C3 8B 08 85 C9 89 10 74 06 8B 01 51 FF  .P........t...Q.
+0012FE70: 00E5B674   00406835: 50 08 C3 85 D2 0F 84 B4 FF FF FF 57 89 C7 6A 00  P..........W..j.
+0012FE74: 00419C72   00406845: 54 51 52 8B 02 FF 10 85 C0 74 07 B0 17 E9 45 C4  TQR......t....E.
+0012FE78: 0012FE9C   00406855: FF FF 8B 07 85 C0 74 06 50 8B 00 FF 50 08 58 89  ......t.P...P.X.
+0012FE7C: 004044C4   00406865: 07 5F C3 85 C0 74 06 50 8B 00 FF 50 04 C3 90 83  ._...t.P...P....
+0012FE80: 0012FE94   00406875: C0 04 50 E8 6B AB FF FF C3 8B C0 83 78 04 00 74  ..P.k.......x..t
+0012FE84: 00E5C9C8   00406885: 07 B0 02 E8 0F C4 FF FF C3 8B C0 E8 47 D4 FF FF  ............G...
+0012FE88: 00000000   00406895: C7 40 04 01 00 00 00 C3 8D 40 00 55 8B EC 53 8B  .@.......@.U..S.
+0012FE8C: 00E5C9C8   004068A5: 5D 08 8B 4D 10 8B 55 0C 8B C3 E8 44 D5 FF FF 84  ]..M..U....D....
+0012FE90: 00E5EE8C   004068B5: C0 74 04 33 C0 EB 05 B8 02 40 00 80 5B 5D C2 0C  .t.3.....@..[]..
+0012FE94: 0012FEC8   004068C5: 00 8B C0 55 8B EC 8B 45 08 83 C0 04 50 E8 09 AB  ...U...E....P...
+0012FE98: 004A0DED   004068D5: FF FF 5D C2 04 00 90 55 8B EC 53 56 8B 5D 08 8D  ..]....U..SV.]..
+0012FE9C: 0012FED0   004068E5: 43 04 50 E8 FB AA FF FF 8B F0 85 F6 75 09 B2 01  C.P.........u...
+0012FEA0: 004044C4   004068F5: 8B C3 8B 08 FF 51 FC 8B C6 5E 5B 5D C2 04 00 85  .....Q...^[]....
+0012FEA4: 0012FEC8   00406905: C0 79 16 8B 0D 20 C0 4A 00 85 C9 74 05 8B 14 24  .y... .J...t...$
+
+
+
+EurekaLog 5.1.11
+
+Application:
+-------------------------------------------------------
+  1.1 Start Date      : Thu, 30 Sep 2010 15:17:15 +0800
+  1.2 Name/Description: PlayWin.exe
+  1.3 Version Number  : 
+  1.4 Parameters      : 
+  1.5 Compilation Date: Thu, 30 Sep 2010 15:17:14 +0800
+
+Exception:
+------------------------------------------------------------------------------------------------------
+  2.1 Date   : Thu, 30 Sep 2010 15:18:26 +0800
+  2.2 Address: 00406815
+  2.3 Module : PlayWin.exe
+  2.4 Type   : EAccessViolation
+  2.5 Message: Access violation at address 00406815 in module 'PlayWin.exe'. Read of address 000008F4.
+
+Active Controls:
+--------------------------------
+  3.1 Form Class   : TEditWindow
+  3.2 Form Text    : Unit1.pas
+  3.3 Control Class: 
+  3.4 Control Text : 
+
+Computer:
+---------------------------------------------------------------------
+  4.1 Name          : PCPLAYER-NB
+  4.2 User          : pcplayer
+  4.3 Total Memory  : 2048 Mb
+  4.4 Free Memory   : 1997 Mb
+  4.5 Total Disk    : 93.17 Gb
+  4.6 Free Disk     : 9.72 Gb
+  4.7 System Up Time: 1 hour, 10 minutes, 11 seconds
+  4.8 Processor     : Celeron(R) Dual-Core CPU       T3000  @ 1.80GHz
+  4.9 Display Mode  : 1280 x 800, 32 bit
+
+Operating System:
+------------------------------------
+  5.1 Type    : Microsoft Windows XP
+  5.2 Build # : 2600
+  5.3 Update  : Service Pack 3
+  5.4 Language: Chinese
+
+Network:
+---------------------------------------------------------------------
+  6.1 IP Address: 000.000.000.000 - 192.168.001.240 - 192.168.056.001
+  6.2 Submask   : 000.000.000.000 - 255.255.255.000 - 255.255.255.000
+  6.3 Gateway   : 000.000.000.000 - 192.168.001.001 - 000.000.000.000
+  6.4 DNS 1     : 008.008.008.008 - 202.096.134.133 - 000.000.000.000
+  6.5 DNS 2     : 202.096.134.133 - 008.008.008.008 - 000.000.000.000
+  6.6 DHCP      : OFF             - OFF             - OFF            
+
+Call Stack Information:
+---------------------------------------------------------------------
+|Address |Module     |Unit       |Class       |Procedure/Method|Line|
+---------------------------------------------------------------------
+| Running Thread: ID=1136; Priority=0; Class=; [Main]               |
+|-------------------------------------------------------------------|
+|004A0DE8|PlayWin.exe|DSPack.pas |TFilterGraph|ClearOwnFilters |2093|
+|004A0DA4|PlayWin.exe|DSPack.pas |TFilterGraph|ClearOwnFilters |2089|
+|0049FA38|PlayWin.exe|DSPack.pas |TFilterGraph|SetActive       |1803|
+|0049F83C|PlayWin.exe|DSPack.pas |TFilterGraph|SetActive       |1747|
+|0049F7EB|PlayWin.exe|DSPack.pas |TFilterGraph|Destroy         |1725|
+|004A8664|PlayWin.exe|PlayWin.dpr|            |                |16  |
+---------------------------------------------------------------------
+
+Modules Information:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|Handle  |Name                |Description                                                           |Version         |Size   |Modified           |Path                                                                                                |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|00400000|PlayWin.exe         |                                                                      |                |858112 |2010-09-30 15:17:16|D:\ControlToInstall\DsPack\Demos\DSVideoWinDowEx\PlayWin                                            |
+|010B0000|GOOGLEPINYIN2.IME   |谷歌拼音输入法 2.3                                                    |2.3.13.82       |2162744|2010-08-21 10:51:06|C:\WINDOWS\system32                                                                                 |
+|014E0000|btmmhook.dll        |Multimedia Keys Hook DLL                                              |5.1.0.5200      |73728  |2007-12-20 16:56:06|C:\WINDOWS\system32                                                                                 |
+|04470000|Normaliz.dll        |Unicode Normalization DLL                                             |6.0.5441.0      |23552  |2009-01-07 18:20:36|C:\WINDOWS\system32                                                                                 |
+|048B0000|PDFShell.CHS        |PDF 属性外壳扩展功能                                                  |1.0.0.0         |12288  |2001-05-18 02:09:46|C:\WINDOWS\system32                                                                                 |
+|04920000|xpsp2res.dll        |Service Pack 2 Messages                                               |5.1.2600.5512   |5535744|2008-04-14 02:35:52|C:\WINDOWS\system32                                                                                 |
+|05670000|mp3fhg.acm          |MPEG Audio Layer-3 Codec for MSACM                                    |3.4.0.0         |232448 |2006-10-19 02:05:16|C:\WINDOWS\system32                                                                                 |
+|057B0000|sonicMP4Demux.ax    |MP4 Demultiplexer Direct Show Filter                                  |1.4.6905.0      |403952 |2008-02-14 11:24:10|C:\Program Files\Common Files\Sonic Shared\SonicMC01                                                |
+|05820000|vsfilter.dll        |VobSub & TextSub filter for DirectShow/VirtualDub/Avisynth            |2.39.5.3        |1003520|2010-07-14 16:00:00|C:\Program Files\K-Lite Codec Pack\Filters                                                          |
+|05A20000|PmpSplitter.ax      |Pmp Splitter                                                          |1.0.1.1         |241664 |2007-03-30 17:52:20|C:\Program Files\Pure Codec\Codecs                                                                  |
+|05A60000|RadGtSplitter.ax    |RadGt Splitter                                                        |1.0.0.0         |294912 |2005-11-12 16:52:02|C:\Program Files\Pure Codec                                                                         |
+|05AB0000|DSMSplitter.ax      |DSM Splitter                                                          |1.2.1245.0      |357888 |2009-08-25 15:22:14|C:\Program Files\Pure Codec                                                                         |
+|06240000|ffdshow.ax          |DirectShow and VFW video and audio decoding/encoding/processing filter|1.1.3509.0      |3834880|2010-07-14 16:00:00|C:\Program Files\K-Lite Codec Pack\ffdshow                                                          |
+|06B40000|divxdec.ax          |DivX? Decoder Filter                                                  |6.3.0.85        |729088 |2009-05-02 05:02:22|C:\WINDOWS\system32                                                                                 |
+|06C20000|TTL2DecodeFilter.dll|                                                                      |                |98304  |2002-12-27 10:18:58|C:\Program Files\Pure Codec\Codecs                                                                  |
+|0EC50000|ac3filter.ax        |ac3filter                                                             |1.3.1.0         |797184 |2009-08-11 21:19:04|C:\Program Files\Pure Codec\Codecs                                                                  |
+|0ED40000|ac3filter_intl.dll  |                                                                      |                |1021440|2009-08-11 21:21:20|C:\Program Files\Pure Codec\Codecs                                                                  |
+|0FFF0000|btkeyind.dll        |                                                                      |                |40960  |2007-12-20 16:53:56|C:\Program Files\WIDCOMM\Bluetooth Software                                                         |
+|10000000|guard32.dll         |COMODO Internet Security                                              |3.12.46209.560  |179792 |2009-12-06 17:49:54|C:\WINDOWS\system32                                                                                 |
+|1C400000|l3codecx.ax         |MPEG Layer-3 Audio Decoder                                            |1.9.0.311       |98304  |2000-06-09 01:00:00|C:\Program Files\Pure Codec\Codecs                                                                  |
+|1F840000|odbcint.dll         |Microsoft Data Access - ODBC Resources                                |3.525.1117.0    |94208  |2007-03-28 20:51:34|C:\WINDOWS\system32                                                                                 |
+|3E410000|WININET.dll         |Internet Extensions for Win32                                         |8.0.6001.18939  |916480 |2010-06-24 20:23:08|C:\WINDOWS\system32                                                                                 |
+|3EAB0000|iertutil.dll        |Run time utility for Internet Explorer                                |8.0.6001.18939  |1986560|2010-06-24 20:23:08|C:\WINDOWS\system32                                                                                 |
+|43CE0000|urlmon.dll          |OLE32 Extensions for Win32                                            |8.0.6001.18939  |1210368|2010-06-24 20:23:08|C:\WINDOWS\system32                                                                                 |
+|45E90000|qdvd.dll            |DirectShow DVD PlayBack Runtime.                                      |6.5.2600.5512   |385536 |2008-04-14 10:13:48|C:\WINDOWS\system32                                                                                 |
+|4AA90000|fltlib.dll          |Filter Library                                                        |5.1.2600.5512   |16896  |2008-04-14 10:13:42|C:\WINDOWS\system32                                                                                 |
+|4AE90000|gdiplus.dll         |Microsoft GDI+                                                        |5.2.6001.22319  |1748992|2009-08-13 21:55:22|C:\WINDOWS\WinSxS\x86_Microsoft.Windows.GdiPlus_6595b64144ccf1df_1.0.6001.22319_x-ww_f0b4c2df       |
+|4B640000|d3d9.dll            |Microsoft Direct3D                                                    |5.3.2600.5512   |1689088|2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|5A540000|wiashext.dll        |Imaging Devices Shell Folder UI                                       |5.1.2600.5512   |579072 |2008-04-14 10:13:50|C:\WINDOWS\system32                                                                                 |
+|5ADC0000|uxtheme.dll         |Microsoft UxTheme Library                                             |6.0.2900.5512   |216064 |2008-04-14 10:13:50|C:\WINDOWS\system32                                                                                 |
+|5CB90000|shmedia.dll         |Media File Property Extractor Shell Extension                         |6.0.2900.5512   |148480 |2008-04-14 10:13:48|C:\WINDOWS\system32                                                                                 |
+|5D170000|comctl32.dll        |Common Controls Library                                               |5.82.2900.5512  |617472 |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|5FDD0000|NETAPI32.dll        |Net Win32 API DLL                                                     |5.1.2600.5694   |337408 |2008-10-16 00:35:20|C:\WINDOWS\system32                                                                                 |
+|62C20000|LPK.DLL             |Language Pack                                                         |5.1.2600.5512   |22016  |2008-04-14 10:13:44|C:\WINDOWS\system32                                                                                 |
+|68D60000|dbghelp.dll         |Windows Image Helper                                                  |5.1.2600.5512   |640000 |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|6DD20000|d3d8thk.dll         |Microsoft Direct3D OS Thunk Layer                                     |5.3.2600.5512   |8192   |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|71A10000|WS2HELP.dll         |Windows Socket 2.0 Helper for Windows NT                              |5.1.2600.5512   |19968  |2008-04-14 10:13:52|C:\WINDOWS\system32                                                                                 |
+|71A20000|WS2_32.dll          |Windows Socket 2.0 32-Bit DLL                                         |5.1.2600.5512   |82432  |2008-04-14 10:13:52|C:\WINDOWS\system32                                                                                 |
+|71A40000|wsock32.dll         |Windows Socket 32-Bit DLL                                             |5.1.2600.5512   |28672  |2008-04-14 10:13:52|C:\WINDOWS\system32                                                                                 |
+|71A90000|MPR.dll             |Multiple Provider Router DLL                                          |5.1.2600.5512   |59904  |2008-04-14 10:13:44|C:\WINDOWS\system32                                                                                 |
+|71B70000|SAMLIB.dll          |SAM Library DLL                                                       |5.1.2600.5512   |64000  |2008-04-14 10:13:48|C:\WINDOWS\System32                                                                                 |
+|71B90000|ntlanman.dll        |Microsoft(R) Lan Manager                                              |5.1.2600.5512   |44032  |2008-04-14 10:13:46|C:\WINDOWS\System32                                                                                 |
+|71C00000|NETRAP.dll          |Net Remote Admin Protocol DLL                                         |5.1.2600.5512   |11776  |2008-04-14 10:13:46|C:\WINDOWS\System32                                                                                 |
+|71C10000|NETUI1.dll          |NT LM UI Common Code - Networking classes                             |5.1.2600.5512   |245760 |2008-04-14 10:13:46|C:\WINDOWS\System32                                                                                 |
+|71C50000|NETUI0.dll          |NT LM UI Common Code - GUI Classes                                    |5.1.2600.5512   |73216  |2008-04-14 10:13:46|C:\WINDOWS\System32                                                                                 |
+|72210000|DINPUT.dll          |Microsoft DirectInput                                                 |5.3.2600.5512   |148480 |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|72C80000|msacm32.drv         |Microsoft Sound Mapper                                                |5.1.2600.0      |20480  |2004-08-08 11:33:54|C:\WINDOWS\system32                                                                                 |
+|72C90000|wdmaud.drv          |WDM Audio driver mapper                                               |5.1.2600.5512   |23552  |2008-04-14 10:14:20|C:\WINDOWS\system32                                                                                 |
+|72F70000|WINSPOOL.DRV        |Windows Spooler Driver                                                |5.1.2600.5512   |145920 |2008-04-14 10:14:20|C:\WINDOWS\system32                                                                                 |
+|73540000|ODBC32.dll          |Microsoft Data Access - ODBC Driver Manager                           |3.525.1132.0    |249856 |2008-04-14 10:13:46|C:\WINDOWS\system32                                                                                 |
+|73640000|msctfime.ime        |Microsoft Text Frame Work Service IME                                 |5.1.2600.5768   |177152 |2009-02-27 12:56:14|C:\WINDOWS\system32                                                                                 |
+|736D0000|DDRAW.dll           |Microsoft DirectDraw                                                  |5.3.2600.5512   |279040 |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|738B0000|D3DIM700.DLL        |Microsoft Direct3D                                                    |5.3.2600.5512   |824320 |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|73AC0000|AVIFIL32.dll        |Microsoft AVI File support library                                    |5.1.2600.5908   |84992  |2009-11-28 00:07:44|C:\WINDOWS\system32                                                                                 |
+|73B10000|sti.dll             |Still Image Devices client DLL                                        |5.1.2600.5512   |67584  |2008-04-14 10:13:48|C:\WINDOWS\system32                                                                                 |
+|73B30000|DCIMAN32.dll        |DCI Manager                                                           |5.1.2600.5512   |8704   |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|73B40000|MSVFW32.dll         |Microsoft Video for Windows DLL                                       |5.1.2600.5512   |120320 |2008-04-14 10:13:44|C:\WINDOWS\system32                                                                                 |
+|73CE0000|shgina.dll          |Windows Shell User Logon                                              |6.0.2900.5512   |68096  |2008-04-14 10:13:48|C:\WINDOWS\system32                                                                                 |
+|73E40000|KsUser.dll          |User CSA Library                                                      |5.3.2600.5512   |4096   |2008-04-14 10:13:44|C:\WINDOWS\system32                                                                                 |
+|73E70000|DSOUND.DLL          |DirectSound                                                           |5.3.2600.5512   |367616 |2008-04-14 10:13:42|C:\WINDOWS\system32                                                                                 |
+|73FA0000|USP10.dll           |Uniscribe Unicode script processor                                    |1.420.2600.5969 |406016 |2010-04-16 23:37:06|C:\WINDOWS\system32                                                                                 |
+|74680000|MSCTF.dll           |MSCTF Server DLL                                                      |5.1.2600.5512   |296960 |2008-04-14 10:13:44|C:\WINDOWS\system32                                                                                 |
+|74A40000|CFGMGR32.dll        |Configuration Manager Forwarder DLL                                   |5.1.2600.5512   |16896  |2008-04-14 10:12:04|C:\WINDOWS\system32                                                                                 |
+|75430000|CRYPTUI.dll         |Microsoft Trust UI Provider                                           |5.131.2600.5512 |449024 |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|758D0000|MSGINA.dll          |Windows NT Logon GINA DLL                                             |5.1.2600.5512   |970752 |2008-04-14 10:13:44|C:\WINDOWS\system32                                                                                 |
+|759D0000|USERENV.dll         |Userenv                                                               |5.1.2600.5512   |708608 |2008-04-14 10:13:50|C:\WINDOWS\system32                                                                                 |
+|75AF0000|devenum.dll         |Device enumeration.                                                   |6.5.2600.5512   |59904  |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|75ED0000|drprov.dll          |Microsoft Terminal Server Network Provider                            |5.1.2600.5512   |14336  |2008-04-14 10:13:42|C:\WINDOWS\System32                                                                                 |
+|75EE0000|davclnt.dll         |Web DAV Client DLL                                                    |5.1.2600.5512   |25088  |2008-04-14 10:13:40|C:\WINDOWS\System32                                                                                 |
+|75EF0000|browseui.dll        |Shell Browser UI Library                                              |6.0.2900.5512   |1024512|2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|76060000|SETUPAPI.dll        |Windows Setup API                                                     |5.1.2600.5512   |1389568|2008-04-13 19:13:50|C:\WINDOWS\system32                                                                                 |
+|762D0000|WINSTA.dll          |Winstation Library                                                    |5.1.2600.5512   |53760  |2008-04-14 10:13:50|C:\WINDOWS\system32                                                                                 |
+|762F0000|MSIMG32.dll         |GDIEXT Client DLL                                                     |5.1.2600.5512   |4608   |2008-04-14 10:13:44|C:\WINDOWS\system32                                                                                 |
+|76300000|IMM32.DLL           |Windows XP IMM32 API Client DLL                                       |5.1.2600.5512   |110080 |2008-04-14 10:13:44|C:\WINDOWS\system32                                                                                 |
+|76320000|comdlg32.dll        |Common Dialogs DLL                                                    |6.0.2900.5512   |269824 |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|76570000|CSCDLL.dll          |Offline Network Agent                                                 |5.1.2600.5512   |99840  |2008-04-14 10:13:40|C:\WINDOWS\System32                                                                                 |
+|76590000|cscui.dll           |Client Side Caching UI                                                |5.1.2600.5512   |304128 |2008-04-14 10:13:40|C:\WINDOWS\System32                                                                                 |
+|765E0000|CRYPT32.dll         |Crypto API32                                                          |5.131.2600.5512 |591872 |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|76960000|ntshrui.dll         |Shell extensions for sharing                                          |5.1.2600.5512   |137216 |2008-04-14 10:13:46|C:\WINDOWS\system32                                                                                 |
+|76990000|ole32.dll           |Microsoft OLE for Windows                                             |5.1.2600.5512   |1287168|2008-04-14 10:13:46|C:\WINDOWS\system32                                                                                 |
+|76AF0000|ATL.DLL             |ATL Module for Windows XP (Unicode)                                   |3.5.2284.2      |58880  |2009-07-18 03:02:18|C:\WINDOWS\system32                                                                                 |
+|76B10000|WINMM.dll           |MCI API DLL                                                           |5.1.2600.5512   |163840 |2008-04-14 10:13:50|C:\WINDOWS\system32                                                                                 |
+|76BC0000|PSAPI.DLL           |Process Status Helper                                                 |5.1.2600.5512   |23040  |2008-04-14 10:13:48|C:\WINDOWS\system32                                                                                 |
+|76C00000|WINTRUST.dll        |Microsoft Trust Verification APIs                                     |5.131.2600.5922 |176640 |2009-12-24 14:59:40|C:\WINDOWS\system32                                                                                 |
+|76C60000|IMAGEHLP.dll        |Windows NT Image Helper                                               |5.1.2600.5512   |144384 |2008-04-14 10:13:42|C:\WINDOWS\system32                                                                                 |
+|76D70000|appHelp.dll         |Application Compatibility Client Library                              |5.1.2600.5512   |125952 |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|76DB0000|MSASN1.dll          |ASN.1 Runtime APIs                                                    |5.1.2600.5875   |58880  |2009-09-05 05:03:40|C:\WINDOWS\system32                                                                                 |
+|76F30000|WLDAP32.dll         |Win32 LDAP API DLL                                                    |5.1.2600.5512   |170496 |2008-04-14 10:13:52|C:\WINDOWS\system32                                                                                 |
+|76FA0000|CLBCATQ.DLL         |                                                                      |2001.12.4414.700|498688 |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|77020000|COMRes.dll          |                                                                      |2001.12.4414.700|615936 |2008-04-14 10:13:40|C:\WINDOWS\system32                                                                                 |
+|770F0000|oleaut32.dll        |                                                                      |5.1.2600.5512   |551936 |2008-04-14 10:13:46|C:\WINDOWS\system32                                                                                 |
+|77180000|comctl32.dll        |User Experience Controls Library                                      |6.0.2900.5512   |1054208|2008-04-14 10:11:56|C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83|
+|77BA0000|midimap.dll         |Microsoft MIDI Mapper                                                 |5.1.2600.5512   |18944  |2008-04-14 10:13:44|C:\WINDOWS\system32                                                                                 |
+|77BB0000|MSACM32.dll         |Microsoft ACM Audio Filter                                            |5.1.2600.5512   |71168  |2008-04-14 10:13:44|C:\WINDOWS\system32                                                                                 |
+|77BD0000|version.dll         |Version Checking and File Installation Libraries                      |5.1.2600.5512   |18944  |2008-04-14 10:13:50|C:\WINDOWS\system32                                                                                 |
+|77BE0000|msvcrt.dll          |Windows NT CRT DLL                                                    |7.0.2600.5512   |343040 |2008-04-14 10:13:44|C:\WINDOWS\system32                                                                                 |
+|77D10000|user32.dll          |Windows XP USER API Client DLL                                        |5.1.2600.5512   |574976 |2008-04-14 10:13:50|C:\WINDOWS\system32                                                                                 |
+|77DA0000|advapi32.dll        |Advanced Windows 32 Base API                                          |5.1.2600.5755   |674816 |2009-02-09 18:52:44|C:\WINDOWS\system32                                                                                 |
+|77E50000|RPCRT4.dll          |Remote Procedure Call Runtime                                         |5.1.2600.6015   |590848 |2010-07-22 23:49:04|C:\WINDOWS\system32                                                                                 |
+|77EF0000|GDI32.dll           |GDI Client DLL                                                        |5.1.2600.5698   |286720 |2008-10-23 20:38:08|C:\WINDOWS\system32                                                                                 |
+|77F40000|SHLWAPI.dll         |Shell Light-weight Utility Library                                    |6.0.2900.5912   |473088 |2009-12-08 17:23:34|C:\WINDOWS\system32                                                                                 |
+|77FC0000|Secur32.dll         |Security Support Provider Interface                                   |5.1.2600.5834   |56832  |2009-06-25 16:24:50|C:\WINDOWS\system32                                                                                 |
+|7C800000|kernel32.dll        |Windows NT BASE API Client DLL                                        |5.1.2600.5781   |1150464|2009-03-21 22:06:58|C:\WINDOWS\system32                                                                                 |
+|7C920000|ntdll.dll           |NT Layer DLL                                                          |5.1.2600.5755   |598016 |2009-02-09 18:52:42|C:\WINDOWS\system32                                                                                 |
+|7CF70000|quartz.dll          |DirectShow Runtime.                                                   |6.5.2600.5933   |1273856|2010-02-06 02:25:48|C:\WINDOWS\system32                                                                                 |
+|7D590000|shell32.dll         |Windows Shell Common Dll                                              |6.0.2900.6018   |8320000|2010-07-27 14:29:42|C:\WINDOWS\system32                                                                                 |
+|7E550000|shdocvw.dll         |Shell Doc Object and Control Library                                  |6.0.2900.5512   |1498624|2008-04-14 10:13:48|C:\WINDOWS\system32                                                                                 |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Registers:
+-----------------------------
+EAX: 000008F0   EDI: 0012FEC0
+EBX: 00000000   ESI: 00F1F350
+ECX: 7FFDF000   ESP: 0012FE68
+EDX: 00F1B538   EIP: 00406815
+
+Stack:               Memory Dump:
+------------------   ---------------------------------------------------------------------------
+0012FE68: 00F1B538   00406815: FF 50 04 58 8B 08 8F 00 85 C9 75 01 C3 8B 01 51  .P.X......u....Q
+0012FE6C: 0012FEC0   00406825: FF 50 08 C3 8B 08 85 C9 89 10 74 06 8B 01 51 FF  .P........t...Q.
+0012FE70: 00F1B538   00406835: 50 08 C3 85 D2 0F 84 B4 FF FF FF 57 89 C7 6A 00  P..........W..j.
+0012FE74: 00419C72   00406845: 54 51 52 8B 02 FF 10 85 C0 74 07 B0 17 E9 45 C4  TQR......t....E.
+0012FE78: 0012FE9C   00406855: FF FF 8B 07 85 C0 74 06 50 8B 00 FF 50 08 58 89  ......t.P...P.X.
+0012FE7C: 004044C4   00406865: 07 5F C3 85 C0 74 06 50 8B 00 FF 50 04 C3 90 83  ._...t.P...P....
+0012FE80: 0012FE94   00406875: C0 04 50 E8 6B AB FF FF C3 8B C0 83 78 04 00 74  ..P.k.......x..t
+0012FE84: 00F1C950   00406885: 07 B0 02 E8 0F C4 FF FF C3 8B C0 E8 47 D4 FF FF  ............G...
+0012FE88: 00000000   00406895: C7 40 04 01 00 00 00 C3 8D 40 00 55 8B EC 53 8B  .@.......@.U..S.
+0012FE8C: 00F1C950   004068A5: 5D 08 8B 4D 10 8B 55 0C 8B C3 E8 44 D5 FF FF 84  ]..M..U....D....
+0012FE90: 00F1EDCC   004068B5: C0 74 04 33 C0 EB 05 B8 02 40 00 80 5B 5D C2 0C  .t.3.....@..[]..
+0012FE94: 0012FEC8   004068C5: 00 8B C0 55 8B EC 8B 45 08 83 C0 04 50 E8 09 AB  ...U...E....P...
+0012FE98: 004A0DED   004068D5: FF FF 5D C2 04 00 90 55 8B EC 53 56 8B 5D 08 8D  ..]....U..SV.]..
+0012FE9C: 0012FED0   004068E5: 43 04 50 E8 FB AA FF FF 8B F0 85 F6 75 09 B2 01  C.P.........u...
+0012FEA0: 004044C4   004068F5: 8B C3 8B 08 FF 51 FC 8B C6 5E 5B 5D C2 04 00 85  .....Q...^[]....
+0012FEA4: 0012FEC8   00406905: C0 79 16 8B 0D 20 C0 4A 00 85 C9 74 05 8B 14 24  .y... .J...t...$
+
+
+

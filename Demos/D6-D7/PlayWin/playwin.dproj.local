@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013/04/07 18:45:37.000.962,=D:\ControlXE2\DsPack_XE3\Demos\D6-D7\PlayWin\Unit2.pas</Transaction>
+    <Transaction>2013/04/07 18:46:09.000.002,D:\ControlXE2\DsPack_XE3\Demos\D6-D7\PlayWin\Unit2.dfm=D:\ControlXE2\DsPack_XE3\Demos\D6-D7\PlayWin\UFmFS.dfm</Transaction>
+    <Transaction>2013/04/07 18:46:09.000.002,D:\ControlXE2\DsPack_XE3\Demos\D6-D7\PlayWin\Unit2.pas=D:\ControlXE2\DsPack_XE3\Demos\D6-D7\PlayWin\UFmFS.pas</Transaction>
+  </Transactions>
+</BorlandProject>
